@@ -1,0 +1,105 @@
+*{padding: 0;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box
+}
+
+body{
+ width:100%;
+ height:100%;
+background-color:rgb(199, 206, 206);
+}
+
+.conteinner{ 
+
+margin:50px;
+border:solid 1px rgb(2, 2, 2);
+width:575px;
+height: 260px;
+background-color: rgb(221, 230, 230);
+
+
+}
+.esquerda{
+ margin: 20px 0px  0px 20px;
+float:left;
+ /* border:solid 1px rgb(2, 2, 2);*/
+ width:350px ;
+ height:80%;
+ border-radius: 1px;
+ background-color:rgba(153, 153, 153, 0.26);
+ box-shadow: 1px 1px #999;
+
+}
+.direita{
+    border-radius: 2px;
+    margin: 20px 15px 0px 0px;
+    float: right;
+   /* border:solid 1px rgb(2, 2, 2);*/
+    width:180px ;
+    height:85%;
+    background-color:rgba(0, 0, 0, 0.842)
+   
+   }
+.teclado{
+ width:100%;
+ height:80%;
+
+}
+.botao{
+
+width:35px;
+height:35px;
+
+}
+.botaoN{
+    display:none;
+    margin-right: 10px;
+
+
+
+}
+.botao{
+
+width: 39px;
+margin-left: 13px;
+margin-top:3px;
+background-color: rgba(0, 0, 0, 0.795);
+color:white;
+
+}
+.selecao{
+    margin-left: 5px;
+    width:100%;
+    height:20%;
+
+}
+
+.botaoS1{
+    font-size: 9px;
+    margin:12px 0px   0px 3px;
+    height:35px;
+    width:50px;
+    box-shadow: 1px 2px #999;
+    background-color:white;
+
+}
+.botaoS2{
+    font-size: 9px;
+    margin:12px 0px   0px 3px;
+    height:35px;
+    width:50px;
+    box-shadow: 1px 2px #999;
+    background-color:red;
+
+}
+.botaoS3{
+    font-size: 9px;
+    margin:12px 0px   0px 3px;
+    height:35px;
+    width:50px;
+    box-shadow: 1px 2px #999;
+    background-color:green;
+
+}
+
